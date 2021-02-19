@@ -1,22 +1,77 @@
-body, html {
-    margin: 0;
-    height: 100vh;
-    width: 100vw;
+html{
+    height: 98%;
+    background-color: black;
 }
-#background {
-    width: 100%;
+body {
     height: 100%;
+}
+
+
+
+#page-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background: url("resources/Claret Paths_FINAL_full image_no logo.jpg") no-repeat center center fixed; 
-    background-size: cover;
-}
-#logo-wrapper {
-    width: 85%;
-    height: 85%;
-}
-#logo {
-    width: 100%;
+    flex-direction: column;
+    min-height: 100%;
     height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
 }
+
+
+.release-date {
+    justify-content: center;
+
+    color:#43C6C1;
+    text-shadow: #BC201C 0px 0px 1px;
+    -webkit-text-stroke: 1px #BC201C;
+    flex-shrink: 2;
+}
+
+
+#bottom-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left: 25%;
+    margin-top:auto;
+}
+
+.link-icon {
+    height: 50px;
+    width: 50px;
+}
+
+.logo {
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    min-width: 0;
+    flex-shrink:2;
+}
+
+.album-art {
+    width: auto;
+    height: 50%;
+    object-fit: contain;
+    min-width: 0;
+    flex-shrink: 3;
+    flex-grow: 1;
+}
+
+.release-date {
+    align-self: center;
+}
+
+@media (orientation: landscape) {
+    .release-date {
+        font-size: 5vh;
+    }
+  }
+  
+  @media (orientation: portrait) {
+    .release-date {
+        font-size: 5vw;
+    }
+  }
