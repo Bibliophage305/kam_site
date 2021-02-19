@@ -22,9 +22,7 @@ body {
 .release-date {
     justify-content: center;
 
-    color:#43C6C1;
-    text-shadow: #BC201C 0px 0px 1px;
-    -webkit-text-stroke: 1px #BC201C;
+    color: white;
     flex-shrink: 2;
 }
 
