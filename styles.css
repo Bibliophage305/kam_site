@@ -21,9 +21,9 @@ body {
 
 .release-date {
     justify-content: center;
-
     color: white;
     flex-shrink: 2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -46,6 +46,7 @@ body {
     height: auto;
     object-fit: contain;
     min-width: 0;
+    max-height: 30%;
     flex-shrink:2;
 }
 
