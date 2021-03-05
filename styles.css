@@ -73,6 +73,23 @@ body {
     flex-grow: 1;
 }
 
+#video-wrapper {
+    width: auto;
+    height: 30%;
+    object-fit: contain;
+    min-width: 0;
+    flex-shrink: 3;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#youtube {
+    height: min(100%, 350px);
+    width: min(100%, 600px);
+}
+
 .release-date {
     align-self: center;
 }
@@ -81,10 +98,10 @@ body {
     .release-date {
         font-size: 5vh;
     }
-  }
+}
   
   @media (orientation: portrait) {
     .release-date {
         font-size: 5vw;
     }
-  }
+}
